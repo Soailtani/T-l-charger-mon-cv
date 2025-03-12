@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p>Ici vous pouvez télécharger mon CV et mes certificats.</p>
+    </header>
+
+    <section>
+        <h2>Mes Téléchargements</h2>
+        <ul>
+            <li><a href="files/cv.pdf" download onclick="trackDownload('cv')">Télécharger mon CV</a></li>
+            <li><a href="files/certificat1.pdf" download onclick="trackDownload('certificat1')">Télécharger le Certificat 1</a></li>
+            <li><a href="files/certificat2.pdf" download onclick="trackDownload('certificat2')">Télécharger le Certificat 2</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mon Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
